@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url("../FUENTES/RobotoCondensed-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: 'space';
+    src: url("../FUENTES/RobotoCondensed-Bold.ttf");
+}
+
+.home{
+    background-color: #000000;
+}
+.titulocenter {
+    text-align: center;
+    padding: 2%;
+}
+
+.espacio {
+    justify-content: flex-end;
+    background: #5d2194;
+    display: contents;
+}
+
+
+.iconw {
+    width: 15px;
+    height: auto;
+    margin-left: 16px;
+}
+
+.home .active {
+    background: white;
+    color: black !important;
+}
+
+/* -------------------------------------Contatenos------------------------------- */
+.contactenos {
+    background-image: url(../img/bgFormulario.png);
+}
+
+.titulo {
+    font-family: 'titulo';
+    color: #7467AD;
+}
+
+.subtitulo {
+    font-family: 'space';
+    color: white;
+    font-size: 2rem;
+}
+
+.colorTexto {
+    color: #7467AD;
+}
+
+.formulario {
+    background-color: white;
+    /* height: ; */
+    width: 500px;
+    margin: auto;
+    padding: 6% 7%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+span {
+    color: red;
+}
+
+.cajaT {
+    margin-top: 34%;
+    font-family: 'titulo';
+
+}
+
+.btn-light {
+    width: 100%;
+    height: auto;
+    background-color: #7467AD !important;
+}
+
+.bgFooter {
+    background-image: url('../img/bgBarra.png');
+    width: 100%;
+    height: 200px;
+
+}
+.tituloB {
+    font-family: 'titulo';
+    color: white;
+}
+
+
+.txFooter {
+    font-family: 'space' !important;
+}
+
+
+.ast-buton{
+ 
+    color: #ffffff;
+    border-color: #0025ff;
+    background-color: #000000;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    font-family: 'Montserrat',sans-serif;
+    width: 165px;
+    height: auto;
+    padding: 12px;
+    margin: auto;
+}
+
+.bgFooter {
+    background-image: url('../img/bgBarra.png');
+    width: 100%;
+    height: 200px;
+
+}
+
+.tituloB {
+    font-family: 'titulo';
+    color: white;
+}
+
+
+
+.logoNegro {
+    width: 40px;
+    height: 40px;
+}
+
+.home .active {
+    background: white;
+    color: black !important;
+}
